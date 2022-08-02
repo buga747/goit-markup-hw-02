@@ -1,3 +1,245 @@
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accent-color: #2196F3;
+    --primary-white-color: #FFFFFF;
+    --background-color: #FFFFFF;
+}
+
+
 body {
-    color: tomato;
+    font-family: Roboto, Raleway, sans-serif;
+    color: var(--primary-text-color);
+    text-decoration: none;
+
+    background-color: var(--background-color);
+}
+
+.list {
+    list-style-type: none;
+}
+
+/* Хедер */
+
+/* logo */
+.logo {
+    font-family: Raleway;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        text-align: left;
+        text-decoration: none;
+   }
+
+.page-header .logo-start {
+    color: var(--accent-color);
+}
+.page-header .logo-end {
+    color: var(--primary-text-color);
+}
+
+/* site nav */
+.site-nav {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+}
+
+.site-nav .link {
+    color: var(--primary-text-color);
+    text-decoration: none;
+    }
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color)
+}
+
+/* контакти */
+.contacts-header {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    
+}
+
+.contacts-header .link {
+    color: var(--secondary-text-color);
+    text-decoration: none;
+}
+.contacts-header .link:hover,
+.contacts-header .link:focus {
+    color: var(--accent-color);
+}
+
+/* hero */
+
+.hero {
+    background-color: #2F303A;
+}
+
+.hero-heading {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--primary-white-color);
+    }
+
+/* кнопка */
+.hero .button {
+    cursor: pointer;
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    }
+
+/* особливості компанії */
+
+
+.features-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    }
+
+.features-description {
+    color: var(--secondary-text-color);
+    font-size: 14px;
+    line-height: 1.71px;
+    letter-spacing: 0.03em;
+    }
+
+
+/* Чим ми займаємось */
+
+.section-header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    }
+
+    /* Команда */
+
+.team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    }
+
+.team-position {
+    color: var(--secondary-text-color);
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    }
+
+    /* Футер */
+.page-footer {
+    background-color: #2F303A;
+}
+  
+.page-footer .logo-start {
+    color: var(--accent-color);
+}
+
+.page-footer .logo-end {
+    color: var(--primary-white-color);
+}
+
+.address-footer {
+     
+        font-style: normal;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: var(--primary-white-color);
+    }
+
+.address-footer .address-email, .address-footer .address-tel {
+    text-decoration: none;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF99;;
+}
+
+.address-footer .address-email:hover,
+.address-footer .address-tel:hover,
+.address-footer .address-email:focus,
+.address-footer .address-tel:focus {
+    color: var(--accent-color)
+}
+
+
+
+
+
+/* Портфоліо */
+
+/* Фільтр портфоліо */
+
+.portfolio-filter .button {
+    cursor: pointer;
+    color: var(--primary-text-color);
+    background-color: #F5F4FA;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.portfolio-filter .button:hover, .portfolio-filter .button:focus {
+    cursor: pointer;
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.projects-link {
+    text-decoration: none;
+}
+
+.project-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.project-type {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
 }
