@@ -30,12 +30,10 @@ body {
         letter-spacing: 0.03em;
         text-align: left;
         text-decoration: none;
+        color: var(--accent-color);
    }
 
-.page-header .logo-start {
-    color: var(--accent-color);
-}
-.page-header .logo-end {
+.page-header .accent-logo {
     color: var(--primary-text-color);
 }
 
@@ -163,11 +161,8 @@ body {
     background-color: #2F303A;
 }
   
-.page-footer .logo-start {
-    color: var(--accent-color);
-}
 
-.page-footer .logo-end {
+.page-footer .accent-logo {
     color: var(--primary-white-color);
 }
 
