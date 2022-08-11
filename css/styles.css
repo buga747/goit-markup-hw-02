@@ -7,12 +7,23 @@
 
 body {
     font-family: Roboto, Raleway, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
     color: var(--primary-text-color);
-    text-decoration: none;
 }
 
 .list {
     list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--primary-text-color);
+}
+
+.link:hover,
+.link:focus {
+    color: var(--accent-color);
 }
 
 /* Хедер */
@@ -21,35 +32,18 @@ body {
 .logo {
     font-family: Raleway;
     font-size: 26px;
-    font-weight: 700;
     line-height: 1.19;
-    letter-spacing: 0.03em;
-    text-align: left;
-    text-decoration: none;
-    color: var(--accent-color);
 }
 
-.page-header .accent-logo {
-    color: var(--primary-text-color);
+.accent-logo {
+    color: var(--accent-color);
 }
 
 /* site nav */
 .nav {
-    font-size: 14px;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    text-align: left;
-}
-
-.nav .link {
-    color: var(--primary-text-color);
-    text-decoration: none;
-}
-
-.nav .link:hover,
-.nav .link:focus {
-    color: var(--accent-color);
 }
 
 .nav .link.current {
@@ -58,7 +52,6 @@ body {
 
 /* контакти */
 .contacts-header {
-    font-size: 14px;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -103,7 +96,6 @@ body {
     background-color: var(--accent-color);
 
     font-weight: 700;
-    /* font-size: 16px; */
     line-height: 1.88;
     display: flex;
     align-items: center;
@@ -111,51 +103,41 @@ body {
     letter-spacing: 0.06em;
 }
 
-/* особливості компанії */
+/* переваги компанії */
 
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
 
 .features-title {
-    font-weight: 700;
-    font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .features-description {
     color: var(--secondary-text-color);
-    font-size: 14px;
-    line-height: 1.71px;
-    letter-spacing: 0.03em;
+    line-height: 1.71;
 }
 
 
 /* Чим ми займаємось */
 
-.section-header {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    letter-spacing: 0.03em;
-}
 
 /* Команда */
 
 .team-name {
     font-weight: 500;
-    /* font-size: 16px; */
-    line-height: 1.19;
+    line-height: 1.17;
     text-align: center;
-    letter-spacing: 0.03em;
 }
 
 .team-position {
     color: var(--secondary-text-color);
-    /* font-size: 16px; */
-    line-height: 1.19;
+    line-height: 1.17;
     text-align: center;
-    letter-spacing: 0.03em;
 }
 
 /* Футер */
@@ -163,34 +145,27 @@ body {
     background-color: #2F303A;
 }
 
-
-.page-footer .accent-logo {
+.footer-logo {
     color: var(--primary-white-color);
 }
 
 .address-footer .address-map {
-    text-decoration: none;
     font-style: normal;
     line-height: 1.71;
-    letter-spacing: 0.03em;
     color: var(--primary-white-color);
 }
 
 .address-email,
 .address-tel {
-    text-decoration: none;
     font-style: normal;
     line-height: 1.71;
-    letter-spacing: 0.03em;
     color: #FFFFFF99;
 }
 
+.footer-logo:hover,
+.footer-logo:focus,
 .address-map:hover,
-.address-email:hover,
-.address-tel:hover,
-.address-map:focus,
-.address-email:focus,
-.address-tel:focus {
+.address-map:focus {
     color: var(--accent-color)
 }
 
@@ -205,7 +180,6 @@ body {
     background-color: #F5F4FA;
     font-family: Roboto;
     font-weight: 500;
-    /* font-size: 16px; */
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
@@ -218,14 +192,9 @@ body {
     background-color: var(--accent-color);
     font-family: Roboto;
     font-weight: 500;
-    /* font-size: 16px; */
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
-}
-
-.projects-link {
-    text-decoration: none;
 }
 
 .project-name {
@@ -237,8 +206,6 @@ body {
 }
 
 .project-type {
-    /* font-size: 16px; */
     line-height: 1.88;
-    letter-spacing: 0.03em;
     color: var(--secondary-text-color);
 }
