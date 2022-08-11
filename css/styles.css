@@ -5,7 +5,6 @@
     --primary-white-color: #FFFFFF;
 }
 
-
 body {
     font-family: Roboto, Raleway, sans-serif;
     color: var(--primary-text-color);
@@ -35,26 +34,25 @@ body {
 }
 
 /* site nav */
-.site-nav {
+.nav {
     font-size: 14px;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-align: left;
-
 }
 
-.site-nav .link {
+.nav .link {
     color: var(--primary-text-color);
     text-decoration: none;
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.nav .link:hover,
+.nav .link:focus {
     color: var(--accent-color);
 }
 
-.site-nav .link.current {
+.nav .link.current {
     color: var(--accent-color)
 }
 
@@ -82,7 +80,7 @@ body {
     background-color: #2F303A;
 }
 
-.hero-heading {
+.main-title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -94,12 +92,12 @@ body {
 
 /* кнопка */
 
-.button {
+.btn {
     border-radius: 4px;
     border: 0;
 }
 
-.hero .button {
+.hero .btn {
     cursor: pointer;
     color: var(--primary-white-color);
     background-color: var(--accent-color);
@@ -201,7 +199,7 @@ body {
 
 /* Фільтр портфоліо */
 
-.portfolio-filter .button {
+.portfolio-filter .btn {
     cursor: pointer;
     color: var(--primary-text-color);
     background-color: #F5F4FA;
@@ -213,8 +211,8 @@ body {
     letter-spacing: 0.03em;
 }
 
-.portfolio-filter .button:hover,
-.portfolio-filter .button:focus {
+.portfolio-filter .btn:hover,
+.portfolio-filter .btn:focus {
     cursor: pointer;
     color: var(--primary-white-color);
     background-color: var(--accent-color);
