@@ -21,11 +21,6 @@ body {
     color: var(--primary-text-color);
 }
 
-.link:hover,
-.link:focus {
-    color: var(--accent-color);
-}
-
 /* Хедер */
 
 /* logo */
@@ -48,6 +43,11 @@ body {
 
 .nav .link.current {
     color: var(--accent-color)
+}
+
+.nav .link:hover,
+.nav .link:focus {
+    color: var(--accent-color);
 }
 
 /* контакти */
@@ -165,7 +165,11 @@ body {
 .footer-logo:hover,
 .footer-logo:focus,
 .address-map:hover,
-.address-map:focus {
+.address-map:focus,
+.address-email:focus,
+.address-email:hover,
+.address-tel:focus,
+.address-tel:hover {
     color: var(--accent-color)
 }
 
