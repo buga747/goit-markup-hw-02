@@ -13,7 +13,19 @@ body {
     color: var(--primary-text-color);
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
 
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 
 .list {
     list-style-type: none;
@@ -76,7 +88,7 @@ body {
     background-color: #2F303A;
 }
 
-.main-title {
+.hero-title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -93,7 +105,7 @@ body {
     border: 0;
 }
 
-.hero .btn {
+.hero-btn {
     cursor: pointer;
     color: var(--primary-white-color);
     background-color: var(--accent-color);
@@ -104,6 +116,12 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    cursor: pointer;
+    background-color: #188CE8;
 }
 
 /* переваги компанії */
@@ -135,7 +153,7 @@ body {
     background-color: var(--section-background-color);
 }
 
-.team .item {
+.team-item {
     background-color: var(--primary-white-color);
 }
 
@@ -189,7 +207,7 @@ body {
 
 /* Фільтр портфоліо */
 
-.portfolio-filter .btn {
+.portfolio-btn {
     cursor: pointer;
     color: var(--primary-text-color);
     background-color: #F5F4FA;
@@ -201,16 +219,11 @@ body {
     font-size: 16px;
 }
 
-.portfolio-filter .btn:hover,
-.portfolio-filter .btn:focus {
+.portfolio-btn:hover,
+.portfolio-btn:focus {
     cursor: pointer;
     color: var(--primary-white-color);
     background-color: var(--accent-color);
-    font-family: Roboto;
-    font-weight: 500;
-    line-height: 1.62;
-    text-align: center;
-    letter-spacing: 0.03em;
 }
 
 .project-name {
