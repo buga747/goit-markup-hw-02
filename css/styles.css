@@ -3,6 +3,7 @@
     --secondary-text-color: #757575;
     --accent-color: #2196F3;
     --primary-white-color: #FFFFFF;
+    --section-background-color: #F5F4FA
 }
 
 body {
@@ -11,6 +12,8 @@ body {
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
+
+
 
 .list {
     list-style-type: none;
@@ -130,6 +133,10 @@ body {
 
 .section.team {
     background-color: var(--section-background-color);
+}
+
+.team .item {
+    background-color: var(--primary-white-color);
 }
 
 .team-name {
